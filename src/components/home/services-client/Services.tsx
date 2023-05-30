@@ -1,5 +1,16 @@
 import FrameSVG from "../../../assets/SVGServices/FrameSVG";
 import Image86SVG from "../../../assets/SVGServices/Image86SVG";
+import image86 from "../../../assets/SVGServices/image86.svg";
+import image87 from "../../../assets/SVGServices/image87.svg";
+import F360F from "../../../assets/SVGServices/360F.svg";
+import AIA from "../../../assets/SVGServices/AIA.svg";
+import AmInsurance from "../../../assets/SVGServices/AmInsurance.svg";
+import FWB from "../../../assets/SVGServices/FWB.svg";
+import IAG from "../../../assets/SVGServices/IAG.svg";
+import OCBCBank from "../../../assets/SVGServices/OCBCBank.svg";
+import PWC from "../../../assets/SVGServices/PWC.svg";
+import Prudential from "../../../assets/SVGServices/Prudential.svg";
+import UOB from "../../../assets/SVGServices/UOB.svg";
 
 const Services = () => {
   return (
@@ -20,8 +31,13 @@ const Services = () => {
           </div>
         </div>
         <div className="flex gap-3 pt-8">
-          <Image86SVG />
-          <Image86SVG />
+          {/* <Image86SVG /> */}
+          <div className=" w-[104px] h-[104px] inline-block">
+            <img src={image86} />
+          </div>
+          <div className=" w-[104px] h-[104px] inline-block">
+            <img src={image87} />
+          </div>
         </div>
       </div>
       <div className="flex items-center py-6 flex-col gap-10">
@@ -30,60 +46,33 @@ const Services = () => {
         </p>
         <div className="w-full flex justify-evenly items-center gap-8">
           <a className=" w-[112px] h-[50px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/aminsurance.png"
-              alt="Aminsurance"
-            />
+            <img src={AmInsurance} />
           </a>
           <a className=" w-[110px] h-[30px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/uob.png"
-              alt="UOB"
-            />
+            <img src={UOB} />
           </a>
           <a className=" w-[103px] h-[46px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/IAG.png"
-              alt="IAG"
-            />
+            <img src={IAG} />
           </a>
           <a className=" w-[100px] h-[50px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/FWD.png"
-              alt="FWD"
-            />
+            <img src={FWB} />
           </a>
         </div>
         <div className="w-full flex justify-evenly items-center gap-8">
           <a className=" w-[121px] h-[51px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/prudential.png"
-              alt="Prudential"
-            />
+            <img src={Prudential} />
           </a>
           <a className=" w-[81px] h-[62px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/pwc.png"
-              alt="PWC"
-            />
+            <img src={PWC} />
           </a>
           <a className=" w-[55px] h-[58px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/AIA.png"
-              alt="AIA"
-            />
+            <img src={AIA} />
           </a>
           <a className=" w-[172px] h-[37px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/ocbc.png"
-              alt="OCBC"
-            />
+            <img src={OCBCBank} />
           </a>
           <a className=" w-[89px] h-[39px] inline-block" href="">
-            <img
-              src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/360f.png"
-              alt="360F"
-            />
+            <img src={F360F} />
           </a>
         </div>
       </div>

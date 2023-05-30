@@ -1,3 +1,22 @@
+import AWS from "../../../assets/SVGTech-stack/AWS.svg";
+import Azue from "../../../assets/SVGTech-stack/Azue.svg";
+import GCP from "../../../assets/SVGTech-stack/GCP.svg";
+import Docker from "../../../assets/SVGTech-stack/Docer.svg";
+import Kubernetes from "../../../assets/SVGTech-stack/Kubernetes.svg";
+import Cardano from "../../../assets/SVGTech-stack/Cardano.svg";
+import Ethereum from "../../../assets/SVGTech-stack/Ethereum.svg";
+import Agular from "../../../assets/SVGTech-stack/Agular.svg";
+import ECK from "../../../assets/SVGTech-stack/ECR.svg";
+import Golang from "../../../assets/SVGTech-stack/Golang.svg";
+import Hyperleader from "../../../assets/SVGTech-stack/Hyperleader.svg";
+import Java from "../../../assets/SVGTech-stack/Java.svg";
+import JavaScript from "../../../assets/SVGTech-stack/JavaScript.svg";
+import NodeJs from "../../../assets/SVGTech-stack/NodeJs.svg";
+import Polkadot from "../../../assets/SVGTech-stack/Polkadot.svg";
+import React from "../../../assets/SVGTech-stack/React.svg";
+import Solana from "../../../assets/SVGTech-stack/Solana.svg";
+import Tezoz from "../../../assets/SVGTech-stack/Tezoz.svg";
+
 const TechStack = () => {
   return (
     <div className="">
@@ -15,55 +34,37 @@ const TechStack = () => {
             <div className="grid grid-cols-3 sm:grid-cols-6 justify-items-stretch w-full gap-3">
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Aws.png"
-                    alt="AWS"
-                  />
+                  <img src={AWS} />
                 </div>
                 <p className="text-gray-400 text-sm">AWS</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Azure.png"
-                    alt="Azure"
-                  />
+                  <img src={Azue} />
                 </div>
                 <p className="text-gray-400 text-sm">Azure</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/GCP.png"
-                    alt="GCP"
-                  />
+                  <img src={GCP} />
                 </div>
                 <p className="text-gray-400 text-sm">GCP</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Docker.png"
-                    alt="Docker"
-                  />
+                  <img src={Docker} />
                 </div>
                 <p className="text-gray-400 text-sm">Docker</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Kubernetes.png"
-                    alt="Kubernetes"
-                  />
+                  <img src={Kubernetes} />
                 </div>
                 <p className="text-gray-400 text-sm">Kubernetes</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/ECKECR.png"
-                    alt="ECKECR"
-                  />
+                  <img src={ECK} />
                 </div>
                 <p className="text-gray-400 text-sm">ECK/ECR</p>
               </div>
@@ -74,55 +75,37 @@ const TechStack = () => {
             <div className="grid grid-cols-3 sm:grid-cols-6 justify-items-stretch w-full  gap-3">
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Ethereum.png"
-                    alt="Ethereum"
-                  />
+                  <img src={Ethereum} />
                 </div>
                 <p className="text-gray-400 text-sm">Ethereum</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Solana.png"
-                    alt="Solana"
-                  />
+                  <img src={Solana} />
                 </div>
                 <p className="text-gray-400 text-sm">Solana</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Tezos.png"
-                    alt="Tezos"
-                  />
+                  <img src={Tezoz} />
                 </div>
                 <p className="text-gray-400 text-sm">Tezos</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/PolkaDot.png"
-                    alt="PolkaDot"
-                  />
+                  <img src={Polkadot} />
                 </div>
                 <p className="text-gray-400 text-sm">PolkaDot</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Cardano.png"
-                    alt="Cardano"
-                  />
+                  <img src={Cardano} />
                 </div>
                 <p className="text-gray-400 text-sm">Cardano</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Hyperledger.png"
-                    alt="Hyperledger"
-                  />
+                  <img src={Hyperleader} />
                 </div>
                 <p className="text-gray-400 text-sm">Hyperledger</p>
               </div>
@@ -133,64 +116,43 @@ const TechStack = () => {
             <div className="grid grid-cols-4 sm:grid-cols-7 justify-items-stretch w-full   gap-3">
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Solana.png"
-                    alt="Solana"
-                  />
+                  <img src={Solana} />
                 </div>
                 <p className="text-gray-400 text-sm">Solana</p>
               </div>
               <div className="flex flex-col items-center col-span-2 sm:col-span-1">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Angular.png"
-                    alt="Angular"
-                  />
+                  <img src={Agular} />
                 </div>
                 <p className="text-gray-400 text-sm">Angular</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/GoLang.png"
-                    alt="GoLang"
-                  />
+                  <img src={Golang} />
                 </div>
                 <p className="text-gray-400 text-sm">GoLang</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Java.png"
-                    alt="Java"
-                  />
+                  <img src={Java} />
                 </div>
                 <p className="text-gray-400 text-sm">Java</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/Javascript.png"
-                    alt="Javascript"
-                  />
+                  <img src={JavaScript} />
                 </div>
                 <p className="text-gray-400 text-sm">Javascript</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/node.js.png"
-                    alt="node.js"
-                  />
+                  <img src={NodeJs} />
                 </div>
                 <p className="text-gray-400 text-sm">Node.js</p>
               </div>
               <div className="flex flex-col items-center">
                 <div className="inline-block w-[52px] h-[52px]">
-                  <img
-                    src="https://vinova.sg/wp-content/themes/Divi/assetsBlockchainV2/img/react.js.png"
-                    alt="react.js"
-                  />
+                  <img src={React} />
                 </div>
                 <p className="text-gray-400 text-sm">React.js</p>
               </div>

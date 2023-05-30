@@ -1,7 +1,7 @@
 import { PlushSVG, XcharSVG } from "../../../../assets/SVGSevieceDev/SerDevSVG";
 import { useState } from "react";
 
-const Item = () => {
+const Item = ({ op }: { op: string }) => {
   const [hideContent, setHideContent] = useState<Boolean>(false);
 
   return (
@@ -10,9 +10,7 @@ const Item = () => {
         <button className="" onClick={() => setHideContent(!hideContent)}>
           {hideContent ? <XcharSVG /> : <PlushSVG />}
         </button>
-        <span className="lg:text-xl pl-4  text-lg">
-          Cryptocurrency Development
-        </span>
+        <span className="lg:text-xl pl-4  text-lg">{op}</span>
       </div>
       <div className={hideContent ? "px-12" : "hidden"}>
         <p>

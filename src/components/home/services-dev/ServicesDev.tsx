@@ -1,6 +1,27 @@
 import Item from "./itemsOfList/Item";
 
+type Options = string[];
+
 const ServicesDev = () => {
+  const options1: Options = [
+    "Crypto Wallets Development",
+    "NFT Marketplace Development",
+    "Smart Contract Development",
+    "ICO and IEO Development",
+  ];
+  const options2: Options = [
+    "Centralized / Decentralized Exchange Development",
+    "Hyperledger Solutions",
+    "DeFi Solution Development",
+    "Decentralized App (dApp) Development",
+  ];
+  const options3: Options = [
+    "Dedicated Blockchain Development",
+    "End-to-end Blockchain Development",
+    "POC Development",
+    "Blockchain Consultation",
+    "Blockchain Staff Augmentation",
+  ];
   return (
     <>
       <div className="">
@@ -22,10 +43,9 @@ const ServicesDev = () => {
               </p>
               <div className="md:col-span-5">
                 <ul>
-                  <Item />
-                  <Item />
-                  <Item />
-                  <Item />
+                  {options1.map((op) => (
+                    <Item op={op} />
+                  ))}
                 </ul>
               </div>
             </div>
@@ -35,10 +55,9 @@ const ServicesDev = () => {
               </p>
               <div className="md:col-span-5">
                 <ul>
-                  <Item />
-                  <Item />
-                  <Item />
-                  <Item />
+                  {options2.map((op) => (
+                    <Item op={op} />
+                  ))}
                 </ul>
               </div>
             </div>
@@ -48,10 +67,9 @@ const ServicesDev = () => {
               </p>
               <div className="md:col-span-5">
                 <ul>
-                  <Item />
-                  <Item />
-                  <Item />
-                  <Item />
+                  {options3.map((op) => (
+                    <Item op={op} />
+                  ))}
                 </ul>
               </div>
             </div>

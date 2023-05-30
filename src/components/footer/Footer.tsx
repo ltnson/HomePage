@@ -1,4 +1,4 @@
-import test from "../../assets/test.svg";
+import footerBG from "../../assets/footerBG.svg";
 
 const Footer = () => {
   return (
@@ -6,7 +6,7 @@ const Footer = () => {
       <div
         className="flex flex-col items-end gap-8 h-[590px]"
         style={{
-          backgroundImage: `url(${test})`,
+          backgroundImage: `url(${footerBG})`,
         }}
       ></div>
 
