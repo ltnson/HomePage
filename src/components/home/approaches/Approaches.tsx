@@ -17,7 +17,7 @@ const Approaches = () => {
           before we get things rolling for you. Here are the Blockchain
           approaches we think can transform your business.
         </p>
-        <div className="grid sm:grid-cols-3 grid-cols-1">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1">
           <div className="flex flex-col items-center p-2">
             <div className="flex flex-col gap-4 items-center">
               <div className="rounded-full bg-red-50 p-4">
@@ -33,7 +33,7 @@ const Approaches = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-center border-x p-2 max-[640px]:border-none">
+          <div className="flex flex-col items-center lg:border-x md:border-l p-2 ">
             <div className="flex flex-col gap-4 items-center">
               <div className="rounded-full bg-red-50 p-4">
                 <Ellipse2 />

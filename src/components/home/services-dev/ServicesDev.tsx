@@ -43,8 +43,8 @@ const ServicesDev = () => {
               </p>
               <div className="md:col-span-5">
                 <ul>
-                  {options1.map((op) => (
-                    <Item op={op} />
+                  {options1.map((op, index) => (
+                    <Item op={op} key={index} />
                   ))}
                 </ul>
               </div>
@@ -55,8 +55,8 @@ const ServicesDev = () => {
               </p>
               <div className="md:col-span-5">
                 <ul>
-                  {options2.map((op) => (
-                    <Item op={op} />
+                  {options2.map((op, index) => (
+                    <Item op={op} key={index} />
                   ))}
                 </ul>
               </div>
@@ -67,8 +67,8 @@ const ServicesDev = () => {
               </p>
               <div className="md:col-span-5">
                 <ul>
-                  {options3.map((op) => (
-                    <Item op={op} />
+                  {options3.map((op, index) => (
+                    <Item op={op} key={index} />
                   ))}
                 </ul>
               </div>

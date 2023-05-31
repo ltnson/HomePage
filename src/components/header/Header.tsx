@@ -40,11 +40,9 @@ const Header = () => {
               )}
             </div>
             <div className=" lg:hidden">
-              <button onClick={() => setHidden(!hidden)}>
-                <IconButton size="large">
-                  <Dehaze />
-                </IconButton>
-              </button>
+              <IconButton size="large" onClick={() => setHidden(!hidden)}>
+                <Dehaze />
+              </IconButton>
             </div>
           </div>
         </div>
