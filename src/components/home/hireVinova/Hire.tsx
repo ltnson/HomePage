@@ -10,7 +10,7 @@ const Hire = () => {
         <div className="flex flex-col items-center gap-2 p-4">
           <div className="w-20 h-20 rounded-full bg-gray-100"></div>
           <p className="font-bold text-2xl">We Match Your Needs</p>
-          <p>
+          <p className=" text-gray-600">
             By partnering with Capital Numbers, you'll get access to our 700+
             in-house developers and will be able to fill any role immediately.
           </p>
@@ -18,7 +18,7 @@ const Hire = () => {
         <div className="flex flex-col items-center gap-2 p-4">
           <div className="w-20 h-20 rounded-full bg-gray-100"></div>
           <p className="font-bold text-2xl">World-class Coding Standards</p>
-          <p>
+          <p className=" text-gray-600">
             By partnering with Capital Numbers, you'll get access to our 700+
             in-house developers and will be able to fill any role immediately.
           </p>
@@ -26,7 +26,7 @@ const Hire = () => {
         <div className="flex flex-col items-center gap-2 p-4">
           <div className="w-20 h-20 rounded-full bg-gray-100"></div>
           <p className="font-bold text-2xl">Work with Experts</p>
-          <p>
+          <p className=" text-gray-600">
             By partnering with Capital Numbers, you'll get access to our 700+
             in-house developers and will be able to fill any role immediately.
           </p>
@@ -34,7 +34,7 @@ const Hire = () => {
         <div className="flex flex-col items-center gap-2 p-4">
           <div className="w-20 h-20 rounded-full bg-gray-100"></div>
           <p className="font-bold text-2xl">ISO Certified</p>
-          <p>
+          <p className=" text-gray-600">
             By partnering with Capital Numbers, you'll get access to our 700+
             in-house developers and will be able to fill any role immediately.
           </p>
@@ -42,7 +42,7 @@ const Hire = () => {
         <div className="flex flex-col items-center gap-2 p-4">
           <div className="w-20 h-20 rounded-full bg-gray-100"></div>
           <p className="font-bold text-2xl">Transparency</p>
-          <p>
+          <p className=" text-gray-600">
             By partnering with Capital Numbers, you'll get access to our 700+
             in-house developers and will be able to fill any role immediately.
           </p>
@@ -50,7 +50,7 @@ const Hire = () => {
         <div className="flex flex-col items-center gap-2 p-4">
           <div className="w-20 h-20 rounded-full bg-gray-100"></div>
           <p className="font-bold text-2xl">Top of the line</p>
-          <p>
+          <p className=" text-gray-600">
             By partnering with Capital Numbers, you'll get access to our 700+
             in-house developers and will be able to fill any role immediately.
           </p>

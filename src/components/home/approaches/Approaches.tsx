@@ -11,7 +11,7 @@ const Approaches = () => {
         <p className="lg:text-5xl font-bold  md:text-4xl text-3xl text-center">
           Approaches to Blockchain
         </p>
-        <p className="lg:text-2xl text-xl lg:w-4/6">
+        <p className="lg:text-2xl text-xl lg:w-4/6  text-gray-600">
           Our world-class team, of course, suggests which Blockchain approach
           would best fit your business. But, we let you have the last word
           before we get things rolling for you. Here are the Blockchain
@@ -25,7 +25,7 @@ const Approaches = () => {
               </div>
 
               <p className="font-bold text-2xl">Public</p>
-              <p className="text-center">
+              <p className="text-center  text-gray-600">
                 Permission-less and non-restrictive, public blockchains work
                 best when maintaining large user bases where any member of the
                 shared network can verify records, do proof-of-work, or engage
@@ -40,7 +40,7 @@ const Approaches = () => {
               </div>
 
               <p className="font-bold text-2xl">Private</p>
-              <p className="text-center">
+              <p className="text-center  text-gray-600">
                 When confidentiality is vital, private blockchains are the best.
                 Private blockchains allow access to data to only those
                 participants who matter, letting data out on a need-to-know
@@ -55,7 +55,7 @@ const Approaches = () => {
               </div>
 
               <p className="font-bold text-2xl">Hybrid</p>
-              <p className="text-center">
+              <p className="text-center  text-gray-600">
                 Hybrid blockchains are a blend of both private and public
                 blockchains. In this model, users can share data with the public
                 and keep things confidential if needed, making the ecosystem

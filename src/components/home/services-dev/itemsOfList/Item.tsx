@@ -10,10 +10,10 @@ const Item = ({ op }: { op: string }) => {
         <button className="" onClick={() => setHideContent(!hideContent)}>
           {hideContent ? <XcharSVG /> : <PlushSVG />}
         </button>
-        <span className="lg:text-xl pl-4  text-lg">{op}</span>
+        <span className="lg:text-xl pl-4 font-bold text-lg">{op}</span>
       </div>
       <div className={hideContent ? "px-12" : "hidden"}>
-        <p>
+        <p className="text-base text-gray-600">
           Handoff your cryptocurrency development to our team of qualified
           engineers. Our team has real-world experience creating a range of
           crypto tokens, bitcoins, altcoins, NFTs, custom smart contracts, etc.,

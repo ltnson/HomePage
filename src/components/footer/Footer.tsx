@@ -3,19 +3,24 @@ import footerBG from "../../assets/footerBG.svg";
 const Footer = () => {
   return (
     <div className="">
+      {/* <div className="w-full h-auto">
+        <img src={footerBG} />
+      </div> */}
       <div
         className="flex flex-col items-end gap-8 h-[590px]"
         style={{
           backgroundImage: `url(${footerBG})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
         }}
       ></div>
 
       <div
-        className="bg-red-500 h-[210px] grid grid-cols-3 font-semibold"
+        className="bg-red-500 h-[210px] grid sm:grid-cols-3 font-semibold "
         style={{ background: "#e21a22" }}
       >
         <div className="sm:col-span-2 col-span-1"></div>
-        <div className="flex flex-col justify-center text-white col-span-2 sm:col-span-1">
+        <div className="flex flex-col justify-center text-white col-span-2 sm:col-span-1 items-center sm:items-start">
           <p className="text-2xl font-bold pb-4">Visit us</p>
           <p>j28 Sin Ming Lane #03-137,</p>
           <p>Midview City,</p>

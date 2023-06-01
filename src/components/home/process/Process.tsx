@@ -10,13 +10,13 @@ const Process = () => {
             <p className="font-bold text-2xl max-[767px]:text-lg">
               <span style={{ color: "#FF1C03" }}>01</span> Discovery Stage
             </p>
-            <p>
+            <p className=" text-gray-600">
               We look at your project requirements at this stage. We try to get
               a sense of what blockchain solutions you need. Each blockchain
               network (public, private, and hybrid) has distinct pluses and
               minuses.
             </p>
-            <p>
+            <p className=" text-gray-600">
               So, we decide which one will best drive your goals. In short, we
               gather all requirements at this stage and form an initial workflow
               based on that
@@ -34,12 +34,12 @@ const Process = () => {
               <span style={{ color: "#FF1C03" }}>02 </span> Product Feasibility
               Study
             </p>
-            <p>
+            <p className=" text-gray-600">
               Next, we do a theoretical build-up of your blockchain app or
               website, outlining the architecture, frameworks, consensus
               mechanism, tech stacks, mockups, designs, and feasibility.
             </p>
-            <p>
+            <p className=" text-gray-600">
               Once our stakeholders approve the prototype and our
               Proof-of-Concept (POC), we proceed with the development work.
             </p>
@@ -55,12 +55,12 @@ const Process = () => {
             <p className="font-bold text-2xl  max-[767px]:text-lg">
               <span style={{ color: "#FF1C03" }}>03</span> Product Development
             </p>
-            <p>
+            <p className=" text-gray-600">
               At this point, we focus on the blockchain platforms, programming
               languages, UI/UX, databases, APIs, and the middleware that
               connects the external systems with the blockchain.
             </p>
-            <p>
+            <p className=" text-gray-600">
               Our developers test and release an alpha version to spot issues.
               Once we fix all gaps and find the product doing well in the
               market, we add more complex features down the road.
@@ -78,13 +78,13 @@ const Process = () => {
               <span style={{ color: "#FF1C03" }}>04</span> Support and
               Maintenance
             </p>
-            <p>
+            <p className=" text-gray-600">
               Our job doesn’t end with just the product launch. We offer
               post-launch support too. We closely monitor the transactions
               executed in blockchain and keep a regular watch to remove
               bugs/glitches (if any).
             </p>
-            <p>
+            <p className=" text-gray-600">
               We even handle feature upgrades from time to time to ensure your
               product is always up to date and functions flawlessly throughout
               its lifetime.
