@@ -1,12 +1,12 @@
 const Process = () => {
   return (
     <div className="">
-      <div className=" my-16 px-28 max-[1023px]:px-6">
+      <div className=" my-16 px-4 md:px-6 lg:px-16 xl:px-24">
         <p className="lg:text-5xl font-bold  md:text-4xl text-3xl lg:w-2/4">
           Our Blockchain Development Process
         </p>
-        <div className="grid lg:grid-cols-3 gap-10 md:grid-cols-2 grid-cols-1 ">
-          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 ">
+        <div className="grid lg:grid-cols-3 gap-8 lg:gap-10 md:grid-cols-2 grid-cols-1 ">
+          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 lg:max-w-[680px] xl:max-w-[750px] md:max-w-[600px]">
             <p className="font-bold text-2xl max-[767px]:text-lg">
               <span style={{ color: "#FF1C03" }}>01</span> Discovery Stage
             </p>
@@ -28,8 +28,8 @@ const Process = () => {
               alt="Discovery Stage"
             />
           </div>
-          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 relative">
-            <div className="absolute h-10 border rounded-md border-red-500 -top-10 max-[1050px]:hidden"></div>
+          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 relative lg:max-w-[670px]">
+            <div className="absolute h-10 border rounded-md border-red-500 -top-11 max-[1050px]:hidden"></div>
             <p className="font-bold text-2xl  max-[767px]:text-lg">
               <span style={{ color: "#FF1C03" }}>02 </span> Product Feasibility
               Study
@@ -50,9 +50,9 @@ const Process = () => {
               alt="Product Feasibility Study"
             />
           </div>
-          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 relative">
-            <div className="absolute h-10 border rounded-md border-red-500 -top-10 max-[1050px]:hidden"></div>
-            <p className="font-bold text-2xl  max-[767px]:text-lg">
+          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 relative lg:max-w-[670px] ">
+            <div className="absolute h-10 border rounded-md border-red-500 -top-11 max-[1050px]:hidden"></div>
+            <p className="font-bold text-2xl  max-[767px]:text-lg ">
               <span style={{ color: "#FF1C03" }}>03</span> Product Development
             </p>
             <p className=" text-gray-600">
@@ -72,8 +72,8 @@ const Process = () => {
               alt="Product Development"
             />
           </div>
-          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 relative">
-            <div className="absolute h-10 border rounded-md border-red-500 -top-10 max-[1050px]:hidden"></div>
+          <div className="lg:col-span-2 md:col-span-1 flex flex-col gap-4 relative lg:max-w-[670px]">
+            <div className="absolute h-10 border rounded-md border-red-500 -top-11 max-[1050px]:hidden"></div>
             <p className="font-bold text-2xl  max-[767px]:text-lg">
               <span style={{ color: "#FF1C03" }}>04</span> Support and
               Maintenance

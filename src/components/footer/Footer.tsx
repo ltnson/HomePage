@@ -3,17 +3,21 @@ import footerBG from "../../assets/footerBG.svg";
 const Footer = () => {
   return (
     <div className="">
-      {/* <div className="w-full h-auto">
-        <img src={footerBG} />
-      </div> */}
       <div
-        className="flex flex-col items-end gap-8 h-[590px]"
+        className="flex flex-col items-center justify-center gap-4 h-[590px] text-white  text-3xl text-center"
         style={{
           backgroundImage: `url(${footerBG})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
-      ></div>
+      >
+        <p className=" font-bold ">BEGIN YOUR JOURNEY WITH US</p>
+        <p className="font-semibold">We'd love to see how we can help you.</p>
+
+        <button className="border-2 px-6  border-white hover:bg-white hover:text-red-500 rounded-none">
+          <p className="pt-3 text-xl">GET IN TOUCH</p>
+        </button>
+      </div>
 
       <div
         className="bg-red-500 h-[210px] grid sm:grid-cols-3 font-semibold "

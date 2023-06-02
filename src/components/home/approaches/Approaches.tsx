@@ -7,7 +7,7 @@ import {
 const Approaches = () => {
   return (
     <div className="">
-      <div className="flex flex-col items-center gap-8 my-16 px-28 max-[1023px]:px-6">
+      <div className="flex flex-col items-center gap-8 my-16 px-4 md:px-6 lg:px-16 xl:px-24">
         <p className="lg:text-5xl font-bold  md:text-4xl text-3xl text-center">
           Approaches to Blockchain
         </p>
@@ -65,10 +65,10 @@ const Approaches = () => {
           </div>
         </div>
         <button
-          className="text-white rounded-md w-72 h-16 text-2xl font-bold mt-10"
+          className="text-white rounded-md w-72 h-16 text-2xl font-bold mt-10 text-center"
           style={{ backgroundColor: "#FF1C03" }}
         >
-          Get in Touch
+          <p className="pt-3">Get in Touch</p>
         </button>
       </div>
     </div>
