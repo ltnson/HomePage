@@ -1,7 +1,7 @@
 const Hire = () => {
   return (
-    <div className="">
-      <div className="flex flex-col items-center gap-8 py-16 px-4 md:px-6 lg:px-16 xl:px-24 text-center">
+    <div className=" max-w-[1100px]">
+      <div className="flex flex-col items-center gap-8 py-16 px-4 md:px-6 lg:px-16 xl:px-24 text-center ">
         <p className="lg:text-5xl font-bold  md:text-4xl text-3xl text-center">
           WHY HIRE <span style={{ color: "#FF1C03" }}>VINOVA</span> ?
         </p>

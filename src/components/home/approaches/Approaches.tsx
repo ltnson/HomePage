@@ -6,7 +6,7 @@ import {
 
 const Approaches = () => {
   return (
-    <div className="">
+    <div className=" max-w-[1100px]">
       <div className="flex flex-col items-center gap-8 my-16 px-4 md:px-6 lg:px-16 xl:px-24">
         <p className="lg:text-5xl font-bold  md:text-4xl text-3xl text-center">
           Approaches to Blockchain

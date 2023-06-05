@@ -1,7 +1,7 @@
 const Process = () => {
   return (
-    <div className="">
-      <div className=" my-16 px-4 md:px-6 lg:px-16 xl:px-24">
+    <div className=" max-w-[1100px]">
+      <div className=" my-16 px-4 md:px-6 lg:px-16 xl:px-24 ">
         <p className="lg:text-5xl font-bold  md:text-4xl text-3xl lg:w-2/4">
           Our Blockchain Development Process
         </p>

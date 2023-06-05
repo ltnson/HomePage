@@ -4,7 +4,7 @@ import Footer from "./components/footer/Footer";
 
 function App() {
   return (
-    <div className="text-slate-950">
+    <div className="text-slate-950 ">
       <Header />
       <Home />
       <Footer />

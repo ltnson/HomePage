@@ -24,8 +24,8 @@ const ServicesDev = () => {
   ];
   return (
     <>
-      <div className="">
-        <div className="gap-10 py-40 px-4 md:px-6 lg:px-16 xl:px-24 leading-10 ">
+      <div className="  max-w-[1100px]">
+        <div className="gap-10 py-40 px-4 md:px-6 lg:px-16 xl:px-24 leading-10">
           <div className="w-5/6 py-10 text-center md:text-start">
             <p className="lg:text-5xl font-bold  md:text-4xl text-3xl">
               Blockchain Development Services
@@ -85,7 +85,7 @@ const ServicesDev = () => {
         </div>
       </div>
       <div
-        className=" flex gap-2 items-center py-10 flex-col text-white"
+        className=" flex gap-2 items-center py-10 flex-col text-white w-full"
         style={{ backgroundColor: "#FF1C03", color: "white" }}
       >
         <p className="lg:text-5xl font-bold leading-tight md:text-4xl text-3xl text-center">

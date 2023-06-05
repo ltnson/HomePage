@@ -7,7 +7,7 @@ import Hire from "./hireVinova/Hire";
 
 const Home = () => {
   return (
-    <div className="text-md md:text-xl">
+    <div className="text-md md:text-xl flex flex-col items-center">
       <Services />
       <ServicesDev />
       <TechStack />

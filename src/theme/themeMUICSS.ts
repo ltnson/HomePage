@@ -7,10 +7,10 @@ const theme = createTheme({
         root: {
           backgroundColor: "white",
           boxShadow: "none",
-          borderBottom: "1px solid #D7D7D7",
           "@media (max-width: 620px)": {
             justifyContent: "space-between",
           },
+          maxWidth: "1100px",
         },
       },
     },
