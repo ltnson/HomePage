@@ -10,7 +10,7 @@ const theme = createTheme({
           "@media (max-width: 620px)": {
             justifyContent: "space-between",
           },
-          maxWidth: "1100px",
+          maxWidth: "1280px",
         },
       },
     },

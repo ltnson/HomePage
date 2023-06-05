@@ -13,7 +13,7 @@ import UOB from "../../../assets/SVGServices/UOB.svg";
 
 const Services = () => {
   return (
-    <div className="  max-w-[1100px]">
+    <div className="  max-w-[1280px]">
       <div className=" pt-20 pb-8 px-4 md:px-6 lg:px-16 xl:px-24 flex flex-col justify-between">
         <div className=" flex justify-between">
           <div className="md:w-[550px] lg:w-[680px] block">

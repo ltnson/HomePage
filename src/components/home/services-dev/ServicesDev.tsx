@@ -24,7 +24,7 @@ const ServicesDev = () => {
   ];
   return (
     <>
-      <div className="  max-w-[1100px]">
+      <div className="  max-w-[1280px]">
         <div className="gap-10 py-40 px-4 md:px-6 lg:px-16 xl:px-24 leading-10">
           <div className="w-5/6 py-10 text-center md:text-start">
             <p className="lg:text-5xl font-bold  md:text-4xl text-3xl">

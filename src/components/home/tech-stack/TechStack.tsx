@@ -19,7 +19,7 @@ import Tezoz from "../../../assets/SVGTech-stack/Tezoz.svg";
 
 const TechStack = () => {
   return (
-    <div className="  max-w-[1200px]">
+    <div className="  max-w-[1280px]">
       <div className="flex flex-col items-center gap-8 pt-16 px-4 md:px-6 lg:px-16">
         <p className="lg:text-5xl font-bold  md:text-4xl text-3xl">
           Technology Stack We Use
