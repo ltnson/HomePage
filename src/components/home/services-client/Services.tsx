@@ -30,10 +30,10 @@ const Services = () => {
           </div>
         </div>
         <div className="flex gap-3 pt-8">
-          <div className=" min-w-[104px] h-[104px] block">
+          <div className=" w-[104px] h-[104px] block">
             <img src={image86} />
           </div>
-          <div className=" min-w-[104px] h-[104px] block">
+          <div className=" w-[104px] h-[104px] block">
             <img src={image87} />
           </div>
         </div>
@@ -42,35 +42,35 @@ const Services = () => {
         <p className="px-8 text-center mb-8">
           Our clients include 150 Global Brands, Silicon Valley Founders
         </p>
-        <div className="flex flex-col gap-8 max-w-[1000px] px-8">
-          <div className="w-full flex justify-between items-center md:gap-12 gap-16  flex-wrap">
-            <a className=" min-w-[112px] h-[50px] block" href="">
+        <div className="flex flex-row md:flex-col gap-8 lg:w-[1000px] px-8">
+          <div className=" flex flex-col md:flex-row justify-between items-center md:gap-12 gap-16  flex-wrap">
+            <a className=" w-[112px] h-[50px] block" href="">
               <img src={AmInsurance} />
             </a>
-            <a className=" min-w-[110px] h-[30px] block" href="">
+            <a className=" w-[110px] h-[30px] block" href="">
               <img src={UOB} />
             </a>
-            <a className=" min-w-[103px] h-[46px] block" href="">
+            <a className=" w-[103px] h-[46px] block" href="">
               <img src={IAG} />
             </a>
-            <a className=" min-w-[100px] h-[50px] block" href="">
+            <a className=" w-[100px] h-[50px] block" href="">
               <img src={FWB} />
             </a>
           </div>
-          <div className="w-full flex justify-between items-center md:gap-8 gap-16  flex-wrap">
-            <a className=" min-w-[121px] h-[51px] inline-block" href="">
+          <div className=" flex flex-col md:flex-row justify-between items-center md:gap-8 gap-16  flex-wrap">
+            <a className=" w-[121px] h-[51px] inline-block" href="">
               <img src={Prudential} />
             </a>
-            <a className=" min-w-[81px] h-[62px] inline-block" href="">
+            <a className=" w-[81px] h-[62px] inline-block" href="">
               <img src={PWC} />
             </a>
-            <a className=" min-w-[55px] h-[58px] inline-block" href="">
+            <a className=" w-[55px] h-[58px] inline-block" href="">
               <img src={AIA} />
             </a>
-            <a className=" min-w-[172px] h-[37px] inline-block" href="">
+            <a className=" w-[172px] h-[37px] inline-block" href="">
               <img src={OCBCBank} />
             </a>
-            <a className=" min-w-[89px] h-[39px] inline-block" href="">
+            <a className=" w-[89px] h-[39px] inline-block" href="">
               <img src={F360F} />
             </a>
           </div>
