@@ -10,41 +10,44 @@ import OCBCBank from "../../../assets/SVGServices/OCBCBank.svg";
 import PWC from "../../../assets/SVGServices/PWC.svg";
 import Prudential from "../../../assets/SVGServices/Prudential.svg";
 import UOB from "../../../assets/SVGServices/UOB.svg";
+import { Typography } from "@mui/material";
 
 const Services = () => {
   return (
-    <div className="  max-w-[1280px]">
-      <div className=" pt-20 pb-8 px-4 md:px-6 lg:px-16 xl:px-24 flex flex-col justify-between">
-        <div className=" flex justify-between">
-          <div className="md:w-[550px] lg:w-[680px] block">
-            <p className="lg:text-5xl font-bold  md:text-4xl text-3xl">
-              Custom Blockchain Development Services
-            </p>
-            <p className="lg:text-2xl text-xl">
-              Expert Blockchain Development Services for Secure and
-              Decentralized Blockchain Technology
-            </p>
+    <div className=" flex justify-center">
+      <div className="w-full  max-w-[1280px]">
+        <div className=" pt-20 pb-8 px-4 md:px-6 lg:px-16 xl:px-24 flex flex-col justify-between">
+          <div className=" flex justify-between ">
+            <div className="md:w-[400px] lg:w-[680px] block">
+              <Typography className="title">
+                Custom Blockchain Development Services
+              </Typography>
+
+              <Typography className="intro">
+                Expert Blockchain Development Services for Secure and
+                Decentralized Blockchain Technology
+              </Typography>
+            </div>
+            <div className="hidden md:block self-center">
+              <FrameSVG />
+            </div>
           </div>
-          <div className="hidden md:block w-max self-center">
-            <FrameSVG />
+          <div className="flex gap-3 pt-8">
+            <div className=" w-[104px] h-[104px] block">
+              <img src={image86} />
+            </div>
+            <div className=" w-[104px] h-[104px] block">
+              <img src={image87} />
+            </div>
           </div>
         </div>
-        <div className="flex gap-3 pt-8">
-          <div className=" w-[104px] h-[104px] block">
-            <img src={image86} />
-          </div>
-          <div className=" w-[104px] h-[104px] block">
-            <img src={image87} />
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col items-center py-6 px-4 md:px-6 lg:px-16 xl:px-24">
-        <p className="px-8 text-center mb-8">
-          Our clients include 150 Global Brands, Silicon Valley Founders
-        </p>
-        <div className="flex flex-row md:flex-col gap-8 lg:w-[1000px] px-8">
-          <div className=" flex flex-col md:flex-row justify-between items-center md:gap-12 gap-16  flex-wrap">
-            <a className=" w-[112px] h-[50px] block" href="">
+        <div className="flex flex-col items-center pt-8 px-4 md:px-6 lg:px-16 xl:px-24 text-center">
+          <Typography className="content">
+            Our clients include 150 Global Brands, Silicon Valley Founders
+          </Typography>
+
+          <div className="flex flex-wrap md:w-[760px] lg:w-[820px] justify-evenly gap-12 sm:gap-8 px-8  pt-12">
+            <a className="md:ml-16 w-[112px] h-[50px] block" href="">
               <img src={AmInsurance} />
             </a>
             <a className=" w-[110px] h-[30px] block" href="">
@@ -53,11 +56,9 @@ const Services = () => {
             <a className=" w-[103px] h-[46px] block" href="">
               <img src={IAG} />
             </a>
-            <a className=" w-[100px] h-[50px] block" href="">
+            <a className="md:mr-16 w-[100px] h-[50px] block" href="">
               <img src={FWB} />
             </a>
-          </div>
-          <div className=" flex flex-col md:flex-row justify-between items-center md:gap-8 gap-16  flex-wrap">
             <a className=" w-[121px] h-[51px] inline-block" href="">
               <img src={Prudential} />
             </a>
@@ -81,3 +82,5 @@ const Services = () => {
 };
 
 export default Services;
+
+// style="transform: ; "

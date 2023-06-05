@@ -7,14 +7,12 @@ const Header = () => {
   const [hidden, setHidden] = useState<Boolean>(false);
 
   return (
-    <div
-      className="flex flex-col items-center"
-      style={{ borderBottom: "1px solid #D7D7D7" }}
-    >
+    <div className="flex flex-col items-center sm:border-b sm:border-gray-200">
       <AppBar position="static">
-        <div className="lg:px-6 px-8 sm:py-2 lg:py-4">
-          <div className="flex lg:justify-evenly items-center justify-between">
+        <div className="lg:px-6 px-8 max-[1023px]:py-2">
+          <div className="flex lg:justify-evenly items-center justify-between ">
             <VinovaSVG />
+            <div className="h-20 w-12 hidden lg:block"></div>
             <div className="">
               <div className="hidden lg:flex">
                 <Button>HOME</Button>
@@ -29,7 +27,7 @@ const Header = () => {
               {hidden && (
                 <div
                   className="flex flex-col p-4 absolute top-16 right-4 bg-white border
-               lg:sticky lg:flex-row lg:border-none"
+               lg:sticky lg:flex-row lg:border-none text-sm"
                 >
                   <Button>HOME</Button>
                   <Button>SERVICES</Button>

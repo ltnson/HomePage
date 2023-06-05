@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import { PlushSVG, XcharSVG } from "../../../../assets/SVGSevieceDev/SerDevSVG";
 import { useState } from "react";
 
@@ -6,20 +7,25 @@ const Item = ({ op }: { op: string }) => {
 
   return (
     <li>
-      <div className="">
+      <div className="md:pl-8">
         <button className="" onClick={() => setHideContent(!hideContent)}>
           {hideContent ? <XcharSVG /> : <PlushSVG />}
         </button>
-        <span className="lg:text-xl pl-4 font-bold text-lg">{op}</span>
+        <Typography
+          className="intro2"
+          sx={{ display: "inline", margin: "0 8px" }}
+        >
+          {op}
+        </Typography>
       </div>
       <div className={hideContent ? "px-12" : "hidden"}>
-        <p className="text-base text-gray-600">
+        <Typography className="content">
           Handoff your cryptocurrency development to our team of qualified
           engineers. Our team has real-world experience creating a range of
           crypto tokens, bitcoins, altcoins, NFTs, custom smart contracts, etc.,
           with bank-level security features that help investors trade safely
           within a decentralized blockchain network.
-        </p>
+        </Typography>
       </div>
     </li>
   );
