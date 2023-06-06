@@ -6,7 +6,7 @@ const Hire = () => {
       style={{ backgroundColor: "#FAFAFA" }}
     >
       <div className=" max-w-[1280px] pt-12">
-        <div className="flex flex-col items-center gap-8 py-16 px-4 md:px-6 lg:px-16 xl:px-24 text-center ">
+        <div className="flex flex-col items-center gap-8 py-16  md:px-6 lg:px-16 xl:px-24 text-center ">
           <Typography className="title">
             WHY HIRE <span style={{ color: "#FF1C03" }}>VINOVA</span> ?
           </Typography>

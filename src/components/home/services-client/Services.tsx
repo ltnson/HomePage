@@ -46,7 +46,7 @@ const Services = () => {
             Our clients include 150 Global Brands, Silicon Valley Founders
           </Typography>
 
-          <div className="flex flex-nowrap  sm:flex-wrap md:w-[760px] lg:w-[820px] justify-evenly gap-12 sm:gap-8 px-8  pt-12">
+          <div className="flex flex-wrap md:w-[760px] lg:w-[820px] justify-evenly gap-12 sm:gap-8 px-8  pt-12">
             <a className="md:ml-16 w-[112px] h-[50px] sm:block" href="">
               <img src={AmInsurance} />
             </a>
