@@ -21,7 +21,7 @@ import { Typography } from "@mui/material";
 const TechStack = () => {
   return (
     <div className=" flex justify-center">
-      <div className="  max-w-[1280px] py-8">
+      <div className="  max-w-[1280px] py-8 pb-12">
         <div className="flex flex-col items-center gap-8 pt-16 px-4 md:px-6 lg:px-16">
           <Typography className="title">Technology Stack We Use</Typography>
           <div className="md:w-3/4 text-center">
@@ -119,7 +119,7 @@ const TechStack = () => {
               </div>
             </div>
             <div className="flex flex-col gap-8 items-center py-8">
-              <p className="text-xl">Languages</p>
+              <Typography className="content2">Languages</Typography>
               <div className="grid grid-cols-4 sm:grid-cols-7 sm:w-[535px] gap-8 sm:gap-0">
                 <div className="flex flex-col items-center pl-12 sm:pl-0">
                   <div className="inline-block w-[52px] h-[52px] ">
@@ -166,7 +166,7 @@ const TechStack = () => {
               </div>
             </div>
             <div className="flex flex-col gap-8 items-center py-8">
-              <p className="text-xl">Standards we Follow</p>
+              <Typography className="content2">Standards we Follow</Typography>
               <div className="grid grid-cols-4 sm:grid-cols-8 sm:w-[535px] gap-2">
                 <div className="flex items-center justify-center h-[65px] border-2 border-slate-400 rounded-md">
                   <p className="text-sm font-semibold"> ST20</p>

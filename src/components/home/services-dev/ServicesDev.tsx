@@ -105,7 +105,12 @@ const ServicesDev = () => {
           50+ projects delivered
         </Typography>
         <Typography
-          sx={{ color: "white", textAlign: "center", fontSize: "25px" }}
+          sx={{
+            color: "white",
+            textAlign: "center",
+            fontSize: "25px",
+            fontWeight: "300",
+          }}
         >
           Our highly experienced team have delivered ....
         </Typography>

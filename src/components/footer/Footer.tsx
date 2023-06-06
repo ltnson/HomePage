@@ -1,18 +1,18 @@
-import footerBG from "../../assets/footerBG.svg";
-
 const Footer = () => {
   return (
     <div className="">
       <div
-        className="flex flex-col items-center justify-center gap-4 h-[590px] text-white  text-3xl text-center"
+        className="flex flex-col items-center justify-center gap-4 h-[590px] text-white  text-3xl text-center min-h-[560px]"
         style={{
-          backgroundImage: `url(${footerBG})`,
+          backgroundImage:
+            'url("https://vinova.sg/wp-content/themes/Divi/assetsV2/img/bgFooter.png")',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          backgroundColor: "#C5181F",
         }}
       >
-        <p className=" font-bold ">BEGIN YOUR JOURNEY WITH US</p>
-        <p className="font-semibold">We'd love to see how we can help you.</p>
+        <p className="font-bold ">BEGIN YOUR JOURNEY WITH US</p>
+        <p className="font-normal">We'd love to see how we can help you.</p>
 
         <button className="border-2 px-6  border-white hover:bg-white hover:text-red-500 rounded-none">
           <p className="pt-3 text-xl">GET IN TOUCH</p>

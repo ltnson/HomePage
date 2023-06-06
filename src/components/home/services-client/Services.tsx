@@ -23,7 +23,7 @@ const Services = () => {
                 Custom Blockchain Development Services
               </Typography>
 
-              <Typography className="intro">
+              <Typography className="intro" sx={{ fontWeight: "400" }}>
                 Expert Blockchain Development Services for Secure and
                 Decentralized Blockchain Technology
               </Typography>
@@ -46,8 +46,8 @@ const Services = () => {
             Our clients include 150 Global Brands, Silicon Valley Founders
           </Typography>
 
-          <div className="flex flex-wrap md:w-[760px] lg:w-[820px] justify-evenly gap-12 sm:gap-8 px-8  pt-12">
-            <a className="md:ml-16 w-[112px] h-[50px] block" href="">
+          <div className="flex flex-nowrap  sm:flex-wrap md:w-[760px] lg:w-[820px] justify-evenly gap-12 sm:gap-8 px-8  pt-12">
+            <a className="md:ml-16 w-[112px] h-[50px] sm:block" href="">
               <img src={AmInsurance} />
             </a>
             <a className=" w-[110px] h-[30px] block" href="">

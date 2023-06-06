@@ -44,14 +44,17 @@ const theme = createTheme({
             backgroundColor: "white",
           },
           "&.button1": {
+            textTransform: "none",
             width: "282px",
             height: "70px",
             fontSize: "25px",
             fontWeight: "700",
+            lineHeight: "31.25px",
             "@media (max-width: 1023px)": {
               width: "260px",
               height: "65px",
               fontSize: "20px",
+              lineHeight: "25px",
             },
             color: "white",
             backgroundColor: "#FF1C03",
@@ -62,14 +65,17 @@ const theme = createTheme({
             },
           },
           "&.button2": {
+            textTransform: "none",
             width: "282px",
             height: "70px",
             fontSize: "25px",
             fontWeight: "700",
+            lineHeight: "31.25px",
             "@media (max-width: 1023px)": {
               width: "260px",
               height: "65px",
               fontSize: "20px",
+              lineHeight: "25px",
             },
             marginTop: "26px",
             color: "#FF1C03",
@@ -89,6 +95,7 @@ const theme = createTheme({
         root: {
           color: "#000000",
           "&.title": {
+            textTransform: "uppercase",
             fontWeight: "700",
             lineHeight: "60px",
             fontSize: "48px",
@@ -98,6 +105,7 @@ const theme = createTheme({
             },
           },
           "&.intro": {
+            fontWeight: "300",
             lineHeight: "37.5px",
             fontSize: "25px",
             "@media (max-width: 1023px)": {
