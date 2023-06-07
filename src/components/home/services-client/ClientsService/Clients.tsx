@@ -1,13 +1,13 @@
-import F360F from "../../../../assets/SVGServices/360F.svg";
-import AIA from "../../../../assets/SVGServices/AIA.svg";
-import AmInsurance from "../../../../assets/SVGServices/AmInsurance.svg";
-import FWB from "../../../../assets/SVGServices/FWB.svg";
-import IAG from "../../../../assets/SVGServices/IAG.svg";
-import OCBCBank from "../../../../assets/SVGServices/OCBCBank.svg";
-import PWC from "../../../../assets/SVGServices/PWC.svg";
-import Prudential from "../../../../assets/SVGServices/Prudential.svg";
-import UOB from "../../../../assets/SVGServices/UOB.svg";
-import { useEffect, useState } from "react";
+import F360F from '../../../../assets/SVGServices/360F.svg';
+import AIA from '../../../../assets/SVGServices/AIA.svg';
+import AmInsurance from '../../../../assets/SVGServices/AmInsurance.svg';
+import FWB from '../../../../assets/SVGServices/FWB.svg';
+import IAG from '../../../../assets/SVGServices/IAG.svg';
+import OCBCBank from '../../../../assets/SVGServices/OCBCBank.svg';
+import PWC from '../../../../assets/SVGServices/PWC.svg';
+import Prudential from '../../../../assets/SVGServices/Prudential.svg';
+import UOB from '../../../../assets/SVGServices/UOB.svg';
+import {useEffect, useState} from 'react';
 
 const Clients = () => {
   const [numb, setNumb] = useState<number>(0);
@@ -96,15 +96,13 @@ const Clients = () => {
     <div
       className="sm:px-8 block pt-12 h-[110px] top-16 sm:h-auto 
       flex overflow-hidden w-11/12 flex-nowrap
-      sm:flex-col sm:gap-8 items-center"
-    >
+      sm:flex-col sm:gap-8 items-center">
       <div
         className="flex items-center sm:hidden"
         style={{
           transform: `translateX(-${x}px)`,
-          transition: "transform 0.25s ease-out",
-        }}
-      >
+          transition: 'transform 0.25s ease-out',
+        }}>
         {logo1}
         {logo2}
         {logo3}

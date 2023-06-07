@@ -1,21 +1,21 @@
-import { AppBar, Button, IconButton } from "@mui/material";
-import VinovaSVG from "../../assets/VinovaSVG";
-import { useState } from "react";
-import { Dehaze } from "@mui/icons-material";
-import { dataString } from "../../models";
+import {AppBar, Button, IconButton} from '@mui/material';
+import VinovaSVG from '../../assets/VinovaSVG';
+import {useState} from 'react';
+import {Dehaze} from '@mui/icons-material';
+import {dataString} from '../../models';
 
 const Header = () => {
   const [hidden, setHidden] = useState<Boolean>(false);
 
   const buttons: dataString = [
-    "HOME",
-    "SERVICES",
-    "BLOCKCHAIN",
-    "BLOG",
-    "JOB",
-    "ABOUT",
-    "TESTIMONIAL",
-    "CONTACT",
+    'HOME',
+    'SERVICES',
+    'BLOCKCHAIN',
+    'BLOG',
+    'JOB',
+    'ABOUT',
+    'TESTIMONIAL',
+    'CONTACT',
   ];
 
   return (
@@ -33,8 +33,7 @@ const Header = () => {
             {hidden && (
               <div
                 className="flex flex-col p-4 absolute top-16 right-4 bg-white border
-               lg:sticky lg:flex-row lg:border-none text-sm"
-              >
+               lg:sticky lg:flex-row lg:border-none text-sm">
                 {buttons.map((name, index) => (
                   <Button key={index}>{name}</Button>
                 ))}

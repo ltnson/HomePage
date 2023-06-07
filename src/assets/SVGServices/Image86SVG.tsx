@@ -1,4 +1,4 @@
-import { SvgIcon, SvgIconProps } from "@mui/material";
+import {SvgIcon, SvgIconProps} from '@mui/material';
 
 const Image86SVG = (props: SvgIconProps) => {
   return (
@@ -8,22 +8,20 @@ const Image86SVG = (props: SvgIconProps) => {
       fill="none"
       {...props}
       sx={{
-        width: "103px",
-        height: "106px",
+        width: '103px',
+        height: '106px',
         // "@media (max-width: 420px)": {
         //   height: "22px",
         //   width: "124px",
         // },
-      }}
-    >
+      }}>
       <rect width="102.971" height="105.045" fill="url(#pattern0)" />
       <defs>
         <pattern
           id="pattern0"
           patternContentUnits="objectBoundingBox"
           width="1"
-          height="1"
-        >
+          height="1">
           <use
             xlinkHref="#image0_1_240"
             transform="matrix(0.000959675 0 0 0.000940734 -0.0100671 0)"

@@ -6,11 +6,10 @@ const Footer = () => {
         style={{
           backgroundImage:
             'url("https://vinova.sg/wp-content/themes/Divi/assetsV2/img/bgFooter.png")',
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundColor: "#C5181F",
-        }}
-      >
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          backgroundColor: '#C5181F',
+        }}>
         <p className="font-bold ">BEGIN YOUR JOURNEY WITH US</p>
         <p className="font-normal">We'd love to see how we can help you.</p>
 
@@ -21,8 +20,7 @@ const Footer = () => {
 
       <div
         className="bg-red-500 h-[210px] grid sm:grid-cols-3 font-semibold "
-        style={{ background: "#e21a22" }}
-      >
+        style={{background: '#e21a22'}}>
         <div className="sm:col-span-2 col-span-1"></div>
         <div className="flex flex-col justify-center text-white col-span-2 sm:col-span-1 items-center sm:items-start">
           <p className="text-2xl font-bold pb-4">Visit us</p>
@@ -33,8 +31,7 @@ const Footer = () => {
       </div>
       <div
         className="col-span-3 flex justify-between py-2"
-        style={{ background: "#991217" }}
-      >
+        style={{background: '#991217'}}>
         <p className="pl-20 pr-10 text-white">
           Copyright © 2023 Vinova Pte. Ltd. All rights reserved.
         </p>

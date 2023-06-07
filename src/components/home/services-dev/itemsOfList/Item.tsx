@@ -1,8 +1,8 @@
-import { Typography } from "@mui/material";
-import { PlushSVG, XcharSVG } from "../../../../assets/SVGSevieceDev/SerDevSVG";
-import { useState } from "react";
+import {Typography} from '@mui/material';
+import {PlushSVG, XcharSVG} from '../../../../assets/SVGSevieceDev/SerDevSVG';
+import {useState} from 'react';
 
-const Item = ({ op }: { op: string }) => {
+const Item = ({op}: {op: string}) => {
   const [hideContent, setHideContent] = useState<Boolean>(false);
 
   return (
@@ -13,12 +13,11 @@ const Item = ({ op }: { op: string }) => {
         </button>
         <Typography
           className="intro2"
-          sx={{ display: "inline", margin: "0 8px" }}
-        >
+          sx={{display: 'inline', margin: '0 8px'}}>
           {op}
         </Typography>
       </div>
-      <div className={hideContent ? "px-12" : "hidden"}>
+      <div className={hideContent ? 'px-12' : 'hidden'}>
         <Typography className="content">
           Handoff your cryptocurrency development to our team of qualified
           engineers. Our team has real-world experience creating a range of

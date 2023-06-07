@@ -1,35 +1,35 @@
-import { Typography, Button } from "@mui/material";
-import Item from "./itemsOfList/Item";
-import { dataDevServ } from "../../../models";
+import {Typography, Button} from '@mui/material';
+import Item from './itemsOfList/Item';
+import {dataDevServ} from '../../../models';
 
 const ServicesDev = () => {
   const dataDevServ: dataDevServ = [
     {
-      title: "Cryptocurrency & NFTs",
+      title: 'Cryptocurrency & NFTs',
       option: [
-        "Crypto Wallets Development",
-        "NFT Marketplace Development",
-        "Smart Contract Development",
-        "ICO and IEO Development",
+        'Crypto Wallets Development',
+        'NFT Marketplace Development',
+        'Smart Contract Development',
+        'ICO and IEO Development',
       ],
     },
     {
-      title: "Decentralized Solutions",
+      title: 'Decentralized Solutions',
       option: [
-        "Centralized / Decentralized Exchange Development",
-        "Hyperledger Solutions",
-        "DeFi Solution Development",
-        "Decentralized App (dApp) Development",
+        'Centralized / Decentralized Exchange Development',
+        'Hyperledger Solutions',
+        'DeFi Solution Development',
+        'Decentralized App (dApp) Development',
       ],
     },
     {
-      title: "Blockchain Solutions",
+      title: 'Blockchain Solutions',
       option: [
-        "Dedicated Blockchain Development",
-        "End-to-end Blockchain Development",
-        "POC Development",
-        "Blockchain Consultation",
-        "Blockchain Staff Augmentation",
+        'Dedicated Blockchain Development',
+        'End-to-end Blockchain Development',
+        'POC Development',
+        'Blockchain Consultation',
+        'Blockchain Staff Augmentation',
       ],
     },
   ];
@@ -53,8 +53,7 @@ const ServicesDev = () => {
               {dataDevServ.map((data, index) => (
                 <div
                   key={index}
-                  className="grid md:grid-cols-12 gap-2 py-8 border-b border-gray-200 grid-cols-1"
-                >
+                  className="grid md:grid-cols-12 gap-2 py-8 border-b border-gray-200 grid-cols-1">
                   <div className="md:col-span-4">
                     <Typography className="title2">{data.title}</Typography>
                   </div>
@@ -73,23 +72,20 @@ const ServicesDev = () => {
       </div>
       <div
         className=" flex gap-2 items-center py-10 flex-col text-white w-full h-[364px] md:h-[325px]"
-        style={{ backgroundColor: "#FF1C03", color: "white" }}
-      >
+        style={{backgroundColor: '#FF1C03', color: 'white'}}>
         <Typography
           className="title"
-          sx={{ color: "white", textAlign: "center" }}
-        >
+          sx={{color: 'white', textAlign: 'center'}}>
           50+ projects delivered
         </Typography>
         <Typography
           sx={{
-            color: "white",
-            textAlign: "center",
-            fontSize: "25px",
-            fontWeight: "300",
-            padding: "0 16px",
-          }}
-        >
+            color: 'white',
+            textAlign: 'center',
+            fontSize: '25px',
+            fontWeight: '300',
+            padding: '0 16px',
+          }}>
           Our highly experienced team have delivered ....
         </Typography>
 

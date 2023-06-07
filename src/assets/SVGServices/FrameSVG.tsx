@@ -1,4 +1,4 @@
-import { SvgIcon, SvgIconProps } from "@mui/material";
+import {SvgIcon, SvgIconProps} from '@mui/material';
 
 const FrameSVG = (props: SvgIconProps) => {
   return (
@@ -8,10 +8,9 @@ const FrameSVG = (props: SvgIconProps) => {
       fill="none"
       {...props}
       sx={{
-        width: "100%",
-        height: "auto",
-      }}
-    >
+        width: '100%',
+        height: 'auto',
+      }}>
       <g clipPath="url(#clip0_1_575)">
         <path
           opacity="0.2"
@@ -298,8 +297,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="132.72"
           x2="200.307"
           y2="157.658"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop />
           <stop offset="0.1445" stopColor="#333333" />
           <stop offset="0.3621" stopColor="#7B7B7B" />
@@ -314,8 +312,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="166.16"
           x2="132.488"
           y2="191.098"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop />
           <stop offset="0.1445" stopColor="#333333" />
           <stop offset="0.3621" stopColor="#7B7B7B" />
@@ -330,8 +327,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="198.748"
           x2="300.812"
           y2="249.51"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop />
           <stop offset="0.1445" stopColor="#333333" />
           <stop offset="0.3621" stopColor="#7B7B7B" />
@@ -346,8 +342,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="303.944"
           x2="268.127"
           y2="328.882"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop />
           <stop offset="0.1445" stopColor="#333333" />
           <stop offset="0.3621" stopColor="#7B7B7B" />
@@ -362,8 +357,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="267.006"
           x2="337.955"
           y2="291.944"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop />
           <stop offset="0.1445" stopColor="#333333" />
           <stop offset="0.3621" stopColor="#7B7B7B" />
@@ -378,8 +372,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="204.126"
           x2="457.267"
           y2="229.064"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop />
           <stop offset="0.1445" stopColor="#333333" />
           <stop offset="0.3621" stopColor="#7B7B7B" />
@@ -394,8 +387,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="236.937"
           x2="398.49"
           y2="261.875"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop />
           <stop offset="0.1445" stopColor="#333333" />
           <stop offset="0.3621" stopColor="#7B7B7B" />
@@ -410,8 +402,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="93.0502"
           x2="168.714"
           y2="120.866"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -421,8 +412,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="126.495"
           x2="100.898"
           y2="154.31"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -432,8 +422,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="117.885"
           x2="236.529"
           y2="174.51"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -443,8 +432,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="55.9622"
           x2="236.531"
           y2="83.7778"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -454,8 +442,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="264.249"
           x2="236.531"
           y2="292.064"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -465,8 +452,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="93.0502"
           x2="307.985"
           y2="120.866"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -476,8 +462,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="227.161"
           x2="306.331"
           y2="254.977"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -487,8 +472,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="226.498"
           x2="168.714"
           y2="254.314"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -498,8 +482,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="126.495"
           x2="367.201"
           y2="154.31"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -509,8 +492,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="164.245"
           x2="425.755"
           y2="192.06"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -520,8 +502,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="164.245"
           x2="41.0196"
           y2="192.06"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -531,8 +512,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="197.359"
           x2="366.869"
           y2="224.843"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>
@@ -542,8 +522,7 @@ const FrameSVG = (props: SvgIconProps) => {
           y1="194.047"
           x2="101.89"
           y2="221.863"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#FFBFC2" />
           <stop offset="1" stopColor="#FA696F" />
         </linearGradient>

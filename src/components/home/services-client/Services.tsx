@@ -1,8 +1,8 @@
-import FrameSVG from "../../../assets/SVGServices/FrameSVG";
-import image86 from "../../../assets/SVGServices/image86.svg";
-import image87 from "../../../assets/SVGServices/image87.svg";
-import { Typography } from "@mui/material";
-import Clients from "./ClientsService/Clients";
+import FrameSVG from '../../../assets/SVGServices/FrameSVG';
+import image86 from '../../../assets/SVGServices/image86.svg';
+import image87 from '../../../assets/SVGServices/image87.svg';
+import {Typography} from '@mui/material';
+import Clients from './ClientsService/Clients';
 
 const Services = () => {
   return (
@@ -15,7 +15,7 @@ const Services = () => {
                 Custom Blockchain Development Services
               </Typography>
 
-              <Typography className="intro" sx={{ fontWeight: "400" }}>
+              <Typography className="intro" sx={{fontWeight: '400'}}>
                 Expert Blockchain Development Services for Secure and
                 Decentralized Blockchain Technology
               </Typography>
