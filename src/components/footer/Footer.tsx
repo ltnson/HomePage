@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="">
+    <>
       <div
         className="flex flex-col items-center justify-center gap-4 h-[590px] text-white  text-3xl text-center min-h-[560px]"
         style={{
@@ -53,7 +53,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
