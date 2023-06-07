@@ -1,3 +1,5 @@
+import {Button} from '@mui/material';
+
 const Footer = () => {
   return (
     <>
@@ -12,10 +14,9 @@ const Footer = () => {
         }}>
         <p className="font-bold ">BEGIN YOUR JOURNEY WITH US</p>
         <p className="font-normal">We'd love to see how we can help you.</p>
-
-        <button className="border-2 px-6  border-white hover:bg-white hover:text-red-500 rounded-none">
-          <p className="pt-3 text-xl">GET IN TOUCH</p>
-        </button>
+        <Button className="btnFooter" sx={{borderRadius: '2px'}}>
+          GET IN TOUCH
+        </Button>
       </div>
 
       <div
