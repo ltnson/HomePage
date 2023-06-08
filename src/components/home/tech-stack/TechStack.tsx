@@ -59,7 +59,7 @@ const TechStack = () => {
 
   return (
     <div className=" flex justify-center">
-      <div className="flex flex-col items-center gap-8 pt-16 px-4 md:px-6 lg:px-16 text-center  max-w-[1280px] py-8 pb-12">
+      <div className="layout-component text-center">
         <Typography className="title">Technology Stack We Use</Typography>
         <div className="md:w-3/4 ">
           <Typography className="intro">
@@ -69,28 +69,13 @@ const TechStack = () => {
         </div>
 
         <div className="grid xl:grid-cols-2 gap-x-10">
-          <div className="flex flex-col gap-8 items-center py-8">
+          <div className="items-center py-8">
             <Typography className="content2">
               Cloud & Containerization
             </Typography>
-            <div className="grid grid-cols-3 sm:grid-cols-6 sm:w-[535px] gap-8 sm:gap-0">
+            <div className="tech-layout grid-cols-3 sm:grid-cols-6">
               {dataCloud.map((data, index) => (
-                <div key={index} className="flex flex-col items-center">
-                  <div className="inline-block min-w-[52px] h-[52px]">
-                    <img src={data.logo} />
-                  </div>
-                  <p className="text-gray-400 text-sm">{data.name}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="flex flex-col gap-8 items-center py-8">
-            <Typography className="content2">
-              Platforms & Blockchains
-            </Typography>
-            <div className="grid grid-cols-3 sm:grid-cols-6 sm:w-[535px] gap-8 sm:gap-0">
-              {dataPlatf.map((data, index) => (
-                <div key={index} className="flex flex-col items-center">
+                <div key={index} className="tech-item">
                   <div className="inline-block w-[52px] h-[52px]">
                     <img src={data.logo} />
                   </div>
@@ -99,13 +84,28 @@ const TechStack = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-8 items-center py-8">
+          <div className="items-center py-8 ">
+            <Typography className="content2">
+              Platforms & Blockchains
+            </Typography>
+            <div className="tech-layout grid-cols-3 sm:grid-cols-6">
+              {dataPlatf.map((data, index) => (
+                <div key={index} className="tech-item">
+                  <div className="inline-block w-[52px] h-[52px]">
+                    <img src={data.logo} />
+                  </div>
+                  <p className="text-gray-400 text-sm">{data.name}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="items-center py-8">
             <Typography className="content2">Languages</Typography>
-            <div className="grid grid-cols-4 sm:grid-cols-7 sm:w-[535px] gap-8 sm:gap-0">
+            <div className="tech-layout grid-cols-4 sm:grid-cols-7">
               {dataLang.map((data, index) => (
                 <div
                   key={index}
-                  className={`flex gap-y-4 flex-col items-center ${
+                  className={`tech-item ${
                     data.name === 'Golang' && 'pr-12 sm:pr-0'
                   } ${data.name === 'Solana' && 'pl-12 sm:pl-0'} ${
                     data.name === 'Agular' && 'col-span-2 sm:col-span-1'
@@ -118,14 +118,14 @@ const TechStack = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col gap-8 items-center py-8">
+          <div className="items-center py-8">
             <Typography className="content2">Standards we Follow</Typography>
-            <div className="grid grid-cols-4 sm:grid-cols-8 sm:w-[535px] gap-2">
+            <div className="tech-layout grid-cols-4 sm:grid-cols-8">
               {dataStand.map((data, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-center h-[65px] border-2 border-slate-400 rounded-md">
-                  <p className="text-sm font-semibold"> {data}</p>
+                  className="tech-item justify-center h-[60px] border-2 border-slate-400 rounded-md text-sm font-semibold">
+                  <p className=""> {data}</p>
                 </div>
               ))}
             </div>

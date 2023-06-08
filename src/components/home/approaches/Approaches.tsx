@@ -27,9 +27,10 @@ const Approaches = () => {
         'Hybrid blockchains are a blend of both private and public blockchains. In this model, users can share data with the public and keep things confidential if needed, making the ecosystem super flexible.',
     },
   ];
+
   return (
-    <div className=" flex justify-center" style={{backgroundColor: '#FAFAFA'}}>
-      <div className=" flex flex-col items-center gap-8 my-16 px-4 md:px-6 lg:px-16 xl:px-24 text-center max-w-[1280px] py-8">
+    <div className=" flex justify-center bg-gray">
+      <div className="layout-component">
         <Typography className="title">Approaches to Blockchain</Typography>
         <Typography className="intro">
           Our world-class team, of course, suggests which Blockchain approach
@@ -44,7 +45,7 @@ const Approaches = () => {
               className={`flex flex-col items-center p-6 ${
                 data.title === 'Private' && 'lg:border-x md:border-l'
               }`}>
-              <div className="flex flex-col gap-4 items-center">
+              <div className="tech-item text-center">
                 <div className="rounded-full bg-red-50 p-4">{data.ellipse}</div>
 
                 <Typography className="title3">{data.title}</Typography>

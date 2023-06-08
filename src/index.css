@@ -71,9 +71,24 @@ button:focus-visible {
 
 @font-face {
   font-family: Gotham;
-  src: url("./assets/font/Gotham-Font/GothamMedium.ttf");
+  src: url('./assets/font/Gotham-Font/GothamMedium.ttf');
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .bg-footer {
+    @apply bg-img-footer bg-no-repeat bg-cover bg-red-light-footer flex flex-col items-center justify-center gap-4 h-[590px] min-h-[560px] text-3xl text-center text-white;
+  }
+  .layout-component {
+    @apply flex flex-col items-center gap-8 px-4 md:px-6 lg:px-16 xl:px-24 max-w-[1280px] py-16;
+  }
+  .tech-layout {
+    @apply grid sm:w-[535px] gap-8 sm:gap-2 py-6;
+  }
+  .tech-item {
+    @apply flex gap-y-4 flex-col items-center;
+  }
+}

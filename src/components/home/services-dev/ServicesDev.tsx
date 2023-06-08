@@ -41,7 +41,6 @@ const ServicesDev = () => {
             <Typography className="title">
               Blockchain Development Services
             </Typography>
-
             <Typography className="intro">
               We offer futuristic Blockchain development solutions to help
               clients grow in this thriving market. We provide services in areas
@@ -70,22 +69,9 @@ const ServicesDev = () => {
           </div>
         </div>
       </div>
-      <div
-        className=" flex gap-2 items-center py-10 flex-col text-white w-full h-[364px] md:h-[325px]"
-        style={{backgroundColor: '#FF1C03', color: 'white'}}>
-        <Typography
-          className="title"
-          sx={{color: 'white', textAlign: 'center'}}>
-          50+ projects delivered
-        </Typography>
-        <Typography
-          sx={{
-            color: 'white',
-            textAlign: 'center',
-            fontSize: '25px',
-            fontWeight: '300',
-            padding: '0 16px',
-          }}>
+      <div className="flex gap-2 items-center py-10 flex-col text-white w-full h-[364px] md:h-[325px] text-white bg-red text-center">
+        <Typography className="title-white">50+ projects delivered</Typography>
+        <Typography className="intro-white">
           Our highly experienced team have delivered ....
         </Typography>
 

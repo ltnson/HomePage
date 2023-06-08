@@ -87,6 +87,7 @@ const theme = createTheme({
             },
           },
           '&.btnFooter': {
+            borderRadius: '2px',
             width: '195px',
             height: '40px',
             fontSize: '20px',
@@ -116,8 +117,39 @@ const theme = createTheme({
               fontSize: '35px',
             },
           },
+          '&.title-white': {
+            color: 'white',
+            textTransform: 'uppercase',
+            fontWeight: '700',
+            lineHeight: '60px',
+            fontSize: '48px',
+            '@media (max-width: 1023px)': {
+              lineHeight: '43.75px',
+              fontSize: '35px',
+            },
+          },
           '&.intro': {
+            color: 'white',
             fontWeight: '300',
+            lineHeight: '37.5px',
+            fontSize: '25px',
+            '@media (max-width: 1023px)': {
+              lineHeight: '25px',
+              fontSize: '20px',
+            },
+          },
+          '&.intro-white': {
+            color: 'white',
+            fontWeight: '300',
+            lineHeight: '37.5px',
+            fontSize: '25px',
+            '@media (max-width: 1023px)': {
+              lineHeight: '25px',
+              fontSize: '20px',
+            },
+          },
+          '&.intro-title': {
+            fontWeight: '400',
             lineHeight: '37.5px',
             fontSize: '25px',
             '@media (max-width: 1023px)': {

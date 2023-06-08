@@ -7,14 +7,14 @@ import Hire from './hireVinova/Hire';
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Services />
       <ServicesDev />
       <TechStack />
       <Approaches />
       <Process />
       <Hire />
-    </div>
+    </>
   );
 };
 

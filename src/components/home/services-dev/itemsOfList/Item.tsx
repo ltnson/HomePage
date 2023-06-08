@@ -7,15 +7,11 @@ const Item = ({op}: {op: string}) => {
 
   return (
     <li>
-      <div className="md:pl-8">
-        <button className="" onClick={() => setHideContent(!hideContent)}>
+      <div className="md:pl-8 flex gap-4">
+        <button onClick={() => setHideContent(!hideContent)}>
           {hideContent ? <XcharSVG /> : <PlushSVG />}
         </button>
-        <Typography
-          className="intro2"
-          sx={{display: 'inline', margin: '0 8px'}}>
-          {op}
-        </Typography>
+        <Typography className="intro2">{op}</Typography>
       </div>
       <div className={hideContent ? 'px-12' : 'hidden'}>
         <Typography className="content">

@@ -14,8 +14,7 @@ const Services = () => {
               <Typography className="title">
                 Custom Blockchain Development Services
               </Typography>
-
-              <Typography className="intro" sx={{fontWeight: '400'}}>
+              <Typography className="intro-title">
                 Expert Blockchain Development Services for Secure and
                 Decentralized Blockchain Technology
               </Typography>
